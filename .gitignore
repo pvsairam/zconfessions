@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+server/public
+artifacts/
+cache/
+compiled/
+typechain-types/
+
+# Environment
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+*.tar.gz
+
+# Excluded files
+attached_assets/
+*.md
+!README.md
+
+# Platform-specific
+.replit
+replit.nix
+.config/
+.upm/
+
+# Hardhat
+deployments/
+coverage/
+
+# Cache
+.cache/
+
+# Vite temp
+vite.config.ts.*
